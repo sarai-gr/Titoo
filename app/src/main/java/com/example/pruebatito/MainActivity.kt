@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             PruebaTitoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Titoo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     PruebaTitoTheme {
-        Greeting("Android")
+        Greeting("Titoo")
     }
 }
